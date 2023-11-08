@@ -1,0 +1,18 @@
+1. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+    Airflow adalah platform open-source yang digunakan untuk mengelola dan menjadwalkan alur kerja (workflow) data dan tugas-tugas yang kompleks. Ini adalah alat yang sangat populer dalam lingkungan pengolahan data dan pengelolaan alur kerja di berbagai organisasi, terutama yang berurusan dengan analisis data, ETL (Extract, Transform, Load), dan otomatisasi tugas-tugas berulang.
+
+2. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+    Great Expectations adalah sebuah alat open-source yang digunakan untuk menguji dan memvalidasi kualitas data dalam lingkungan pengolahan data. Ini membantu organisasi untuk memverifikasi apakah data mereka sesuai dengan ekspektasi atau standar tertentu yang telah ditentukan.
+
+3. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+    Batch Processing adalah suatu metode pengolahan data di mana sejumlah besar data diambil, diproses, dan dihasilkan sebagai keluaran dalam satu periode tertentu, yang disebut sebagai batch. Batch processing memiliki keuntungan seperti efisiensi penggunaan sumber daya, kemudahan pemantauan, dan fleksibilitas dalam mengatur waktu pemrosesan. Namun, ia tidak cocok untuk kasus pengolahan data yang memerlukan respons instan.
+
+    Contoh Kasus :
+        - Laporan Keuangan Bulanan: Banyak perusahaan menggunakan batch processing untuk menghasilkan laporan keuangan bulanan. Data dari berbagai sumber dikumpulkan, diproses, dan kemudian laporan akhir dihasilkan dalam satu batch pada akhir bulan.
+        - Pemrosesan Pesanan E-commerce: Pada bisnis e-commerce, pesanan pelanggan dapat dikumpulkan selama sehari, dan kemudian diproses dalam satu batch pada akhir hari untuk menghasilkan faktur dan mengatur pengiriman.
+    
+    Tools : 
+        - Apache Spark: Meskipun lebih dikenal untuk pemrosesan data streaming, Spark juga mendukung batch processing.
+        - Apache Flink: Sebuah alat pemrosesan data yang mendukung batch processing dan pemrosesan data streaming dalam satu platform.
+    
+
